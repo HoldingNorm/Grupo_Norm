@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" type="image/png" href="views/images/favicon.png"/>
+    <link rel="stylesheet" href="views/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="views/css/styles.css">
+    <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="/bower_components/polymer/polymer.html">
+	<title>CECAC | Corredor Empresarial Cuatlancingo A.C.</title>
+
+</head>
+<header class="header">
+    <nav class="navbar navbar-toggleable-md">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="servicios" class="nav-link">Servicios</a></li>
+                <li class="nav-item"><a href="miembros" class="nav-link">Miembros</a></li>
+                <li class="nav-item"><a href="noticias" class="nav-link">Noticias</a></li>
+                <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target=".bd-example-modal-lg">Contacto</a></li>
+            </ul>
+        </div>  
+    </nav>
+</header>
+<body>
+    <section class="container error-403">
+        <div class="row">
+            <div class="col-6">
+                <img src="views/images/403.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-6"> 
+                <h2>Permission Denied (Error 403)</h2>
+                <p>Usted no tiene permisos para acceder a esta parte del sitio web, si considera que hay un error en esto contacte con el administrador:</p>
+                <p>fhernandez@techdev.com</p>
+                <a href="inicio">Regresar a la pagina principal</a>
+            </div>
+        </div>
+    </section>
+
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="views/js/jquery-3.2.1.min.js"></script>
+    <script src="views/js/bootstrap.min.js"></script>
+    <script src="views/js/main.js"></script>
+</body>
+<footer>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 hidden-xs-down">
+                <p>
+                    Como afiliado de CECAC se puede contar con los beneficios de acceder a los servicios de consultoría, estudios, análisis, capacitación con un costo preferente y gozar de espacios publicitarios totalmente gratuitos en el sitio web del Corredor Empresarial.<br><br>
+
+                    Somos un grupo de empresarios unidos en una A.C. con fin no lucrativo, enfocado en la infraestructura entre asociados con el municipio, el estado y la federacion.
+                </p>
+            </div>
+            <div class="col-md-3 col-12">
+                <p>
+                    <b>Ubicación</b><br>
+                    Calle Camino a San Lorenzo, 1202,<br>
+                    Trinidad Sanctorum<br>
+                    Cuautlancingo, Puebla
+                </p>
+                <p>
+                    <b>Informes</b><br>
+                    222-269-70-22<br>
+                    <a href="mailto:j.reyes@cecac.com.mx">j.reyes@cecac.com.mx</a>
+                </p>
+            </div>
+            <div class="col-md-3 hidden-xs-down">
+                <div class="row">
+                    <div class="col-12">
+                        <b>Aliados</b>
+                    </div>
+                    <div class="col-6"><a href="http://norm.com.mx/" rel="nofollow"><img src="views/images/norm-logo-white.png" alt="Industrias Norm"></a></div>
+                    <div class="col-6"><a href="http://otcmexico.com.mx/" rel="nofollow"><img src="views/images/logo-otc-final.png" alt="OTC Refacciones"></a></div>
+                    <div class="col-6"><a href="http://stahlwerke.mx/" rel="nofollow"><img src="views/images/stahl-white.png" alt=""></a></div>
+                    <div class="col-6"><a href="http://clauz.mx/" rel="nofollow"><img src="views/images/logotipo-CLAUZ-03.png" alt="Clúster Automotriz Zona Centro"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row credits">
+            <div class="col-md-8 col-6">
+                <p>Developed by <a href="http://techdev.mx/" rel="nofollow">TechDev</a> </p>
+            </div>
+            <div class="col-md-4 col-6">
+                <p><a href="#">Aviso de Privacidad</a></p>
+            </div>
+        </div>
+    </section>
+</footer>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Afiliate al CECAC</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Quieres conocer mas sobre el CECAC o Afiliarte envianos un mensaje y nos pondremos en contacto contigo</p>       
+                <form>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-6 col-12">
+                                                <div>
+                                                    <label for="formGroupExampleInput">Nombre:</label>
+                                                    <input type="text" required class="form-control" id="formGroupExampleInput" placeholder="Nombre Ejemplo">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput">Email:</label>
+                                                    <input type="email" required class="form-control" id="formGroupExampleInput" placeholder="email@ejemplo.com">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput">Telefono:</label>
+                                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="888-88-8888">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput">Empresa:</label>
+                                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Empresa S.A. de C.V.">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <div class="label">Mensaje:</div>
+                                                    <textarea name="" class="form-control" id="" cols="10" rows="5"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <input type="submit" value="Enviar Mensaje">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

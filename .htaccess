@@ -1,0 +1,10 @@
+#Bloqueo de listado de directorios
+
+Options All -Indexes
+
+#Urls amigables
+# Activar RewriteEngine
+ErrorDocument 403 http://norminds.com/403
+RewriteEngine on
+
+RewriteRule ^(\w+)$ index.php?action=$1
