@@ -7,4 +7,5 @@ Options All -Indexes
 ErrorDocument 403 http://norminds.com/403
 RewriteEngine on
 
-RewriteRule ^(\w+)$ index.php?action=$1
+RewriteEngine on
+RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?action=$1
